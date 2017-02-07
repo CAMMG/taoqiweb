@@ -1,0 +1,459 @@
+body, div, p, img, a, ul, li ,h1 ,h2, h3, h4{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+	font-weight: normal;
+}
+ul, li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #4a4a4a;
+}
+.container{
+	width: 100%;
+}
+.main-container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.clearfix{
+	clear: both;
+}
+/*********************common header start******************************/
+.header-section{
+	height: 100px;
+}
+.header-section .header-left{
+	float: left;
+	margin-top: 20px;
+}
+.header-left .logo{
+	width: 60px;
+	height: 60px;
+	margin-right: 6px;
+}
+.header-left .slogan{
+	width: 140px;
+	height: 49px;
+	vertical-align: top;
+	margin-top: 7px;
+}
+.header-section .header-right{
+	float: right;
+}
+.header-right .header-nav{
+	float: right;
+	margin-top: 55px;
+}
+.header-nav li{
+	display: inline-block;
+	width: 64px;
+	margin: 0 18px;
+	height: 45px;
+	text-align: center;
+}
+.header-nav li:hover a,
+.header-nav li.on a{
+	color: #ffa200;
+}
+.header-nav li.on{
+	border-bottom: 4px solid #ffb32e;
+}
+/*********************common header end********************************/
+
+/*********************common footer start******************************/
+.footer-section{
+	width: 100%;
+	height: 190px;
+	background: #333;
+	color: #fff;
+	position: relative;
+	font-size: 14px;
+}
+.footer-section .footer-left {
+	float: left;
+	margin-top: 45px;
+}
+.footer-left img {
+	vertical-align: middle;
+}
+.footer-left .commany {
+	width: 160px;
+	height: 64px;
+}
+.footer-left .app {
+	margin-top: 14px;
+	width: 35px;
+	height: 35px;
+}
+.footer-left span {
+	margin-top: 14px;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: inline-block;
+	width: 1px;
+	height: 35px;
+	background-color: #666;
+	vertical-align: middle;
+}
+.footer-section .footer-right {
+	float: right;
+	margin-top: 25px;
+}
+.footer-right ul li{
+	display: inline-block;
+	padding: 0 22px;
+}
+.footer-right ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.footer-right ul{
+	display:inline-block;
+}
+.footer-right .qr-code{
+	display:inline-block;
+	padding-top: 98px;
+	width: 98px;
+	background: url(../imgs/shouye_bottom_erweima.png) no-repeat;
+	vertical-align: middle;
+	font-size: 14px;
+	text-align: center;
+	line-height: 2em;
+}
+.copyright{
+	position: absolute;
+	bottom: 5px;
+	font-size: 14px;
+}
+/*********************common footer end********************************/
+
+/**************************banner-section start************************************/
+.banner-section{
+	width: 100%;
+	height: 460px;
+	background: url(../imgs/shouye_banner_ng.png) center no-repeat;
+	position: relative;
+}
+.banner-left {
+	position: absolute;
+	bottom: -100px;
+	z-index: 10;
+}
+.banner-left img{
+	margin-left: 60px;
+}
+.banner-right {
+	padding-left: 50%;
+	padding-top: 94px;
+	width: 100%;
+}
+.banner-right .banner-title{
+	margin-bottom: 30px;
+	width: 449px;
+	height: 115px;
+	background: url(../imgs/shouye_wenzi.png) no-repeat;
+}
+.banner-right .qr-code{
+	margin-left: 30px;
+}
+.banner-right .download-btn {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 60px;
+}
+.download-btn a{
+    display: block;
+    width: 260px;
+    height: 46px;
+    margin-top: 28px;
+}
+.download-btn a.android{
+    background: url(../imgs/shouye_download_anzuo.png) no-repeat;
+}
+.download-btn a.ios{
+    background: url(../imgs/shouye_download_apple.png) no-repeat;
+}
+/**************************banner-section end**************************************/
+
+/**************************banner-section-2 start *********************************/
+.banner-section-2{
+	width: 100%;
+	height: 300px;
+	padding-top: 190px;
+	position: relative;
+}
+.banner-section-2 h1{
+	width:166px;
+	height: 60px;
+	font-size:36px;
+	color:#ffffff;
+	border-bottom: 4px solid #fff;
+}
+.banner-section-2 span{
+	font-size:18px;
+	color:#ffffff;
+	line-height:26px;
+}
+/**************************banner-section-2 end************************************/
+
+/**************************platform-advantage start********************************/
+.platform-advantage{
+	padding-top: 120px;
+}
+.platform-advantage h3{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+}
+.platform-advantage .platform-ul {
+	padding-top: 40px;
+}
+.platform-ul li{
+	float: left;
+	width: 25%;
+	height: 45px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.platform-1{
+	background-image: url(../imgs/shouye_icon_quanbaodai.png);
+}
+.platform-2{
+	background-image: url(../imgs/shouye_icon_jiandanbianjie.png);
+}
+.platform-3{
+	background-image: url(../imgs/shouye_icon_yueru3000.png);
+}
+.platform-4{
+	background-image: url(../imgs/shouye_icon_yizhanfuwu.png);
+}
+.platform-show{
+	padding-top: 57px;
+	height: 160px;
+}
+/**************************platform advantage end**********************************/
+
+/**************************shopping guide start************************************/
+.shopping-guide{
+	padding-top: 80px;
+}
+.shopping-guide h3{
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 30px;
+}
+.shopping-guide ul li {
+	float: left;
+	padding-top: 87px;
+	margin-bottom: 45px;
+	width: 12%;
+	background-repeat: no-repeat;
+	background-position:top center;
+	text-align: center;
+}
+.shopping-guide span{
+	float: left;
+	display: block;
+	width: 10%;
+	height: 100px;
+	background: url(../imgs/icon_jiantou.png) center no-repeat;
+}
+.shopping-guide .shopping-1 {
+	background-image: url(../imgs/shouye_icon_chexingxuangou.png);
+}
+.shopping-guide .shopping-2 {
+	background-image: url(../imgs/shouye_icon_jiaoyufukuan.png);
+}
+.shopping-guide .shopping-3 {
+	background-image: url(../imgs/shouye_icon_qiandinghetong.png);
+}
+.shopping-guide .shopping-4 {
+	background-image: url(../imgs/shouye_icon_xianxiatiche.png);
+}
+.shopping-guide .shopping-5 {
+	background-image: url(../imgs/shouye_icon_qimangguohu.png);
+}
+/**************************shopping guide end**************************************/
+/**************************platform-charactor start********************************/
+.platform-charactor{
+	height: 700px;
+	background: url(../imgs/cpjs_image_dtzygn.png) center no-repeat;
+	padding-top: 122px;
+}
+.platform-charactor .main-container{
+	position: relative;
+}
+.platform-charactor h3{
+	font-weight: bold;
+	font-size:24px;
+	color:#333333;
+	padding-bottom: 25px;
+}
+.platform-charactor h4{
+	font-weight: bold;
+	font-size:30px;
+	color:#4a4a4a;
+}
+.platform-charactor p{
+	font-size:16px;
+	color:#666666;
+	line-height:26px;
+}
+.platform-charactor ul li{
+	padding-left: 100px;
+	width: 500px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.charactor-1 {
+	background: url(../imgs/cpjs_icon_hlcx.png) left center no-repeat;
+}
+.charactor-2 {
+	background: url(../imgs/cpjs_icon_jxhc.png) left center no-repeat;
+}
+.charactor-3 {
+	background: url(../imgs/cpjs_icon_cdmk.png) left center no-repeat;
+}
+.charactor-4 {
+	background: url(../imgs/cpjs_icon_wyfq.png) left center no-repeat;
+}
+.charactor-image{
+	position: absolute;
+	right: 0;
+	bottom: 100px;
+}
+/**************************platform-charactor end********************************/
+
+/**************************app-show start****************************************/
+.app-show{
+	height:598px;
+	background: url(../imgs/cpjs_image_dtjietu.png) center no-repeat;
+	padding-top: 157px;
+}
+.app-show .main-container{
+	position: relative;
+}
+.app-show h3{
+	font-weight: bold;
+	font-size:24px;
+	color:#333333;
+	padding-bottom: 55px;
+}
+.app-show .app-image {
+	margin-bottom: 14px;
+}
+.app-image .logo{
+	width: 60px;
+	height: 60px;
+	margin-right: 6px;
+}
+.app-image .slogan{
+	width: 140px;
+	height: 49px;
+	vertical-align: top;
+	margin-top: 7px;
+}
+.app-show ul {
+	width: 360px;
+}
+.app-show ul li {
+	float: left;
+	width: 50%;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 60px;
+	margin-top: 30px;
+	font-size:24px;
+	color:#333333;
+}
+.app-1{
+	background: url(../imgs/cpjs_icon_chaoduohaoche.png) left center no-repeat;
+}
+.app-2{
+	background: url(../imgs/cpjs_icon_chaodimengkang.png) left center no-repeat;
+}
+.app-3{
+	background: url(../imgs/cpjs_icon_chaokuaitiche.png) left center no-repeat;
+}
+.app-4{
+	background: url(../imgs/cpjs_icon_chaoquanfuwu.png) left center no-repeat;
+}
+.show-image{
+	position: absolute;
+	right: 60px;
+	bottom: 0;
+}
+/**************************app-show end******************************************/
+/**************************aboutUs banner start**********************************/
+.aboutus.banner-section-2{
+	background: url(../imgs/gywm_image1.png) center no-repeat;
+}
+.contactus.banner-section-2{
+	background: url(../imgs/lxwm_image1.png) center no-repeat;
+}
+/**************************aboutUs banner end************************************/
+/**************************main-content start************************************/
+.main-content {
+	margin-top: 50px;
+}
+.main-content .main-container{
+	border-top: 1px solid #d8d8d8;
+	padding-top: 28px;
+}
+.main-content .content-left {
+	float: left;
+	width: 266px;
+}
+.main-content h2{
+	width:266px;
+	height:60px;
+	line-height:60px;
+	background:#f5f5f9;
+	font-size:20px;
+	text-align: center;
+	color:#333333;
+}
+.main-content .content-right {
+	float: right;
+	width: 866px;
+	padding-bottom: 90px;
+}
+.main-content h3{
+	font-size:24px;
+	color:#4a4a4a;
+}
+.main-content p{
+	font-size:18px;
+	color:#666666;
+	line-height:26px;
+	padding-top: 27px;
+	padding-bottom: 30px;
+}
+.contactus.main-content .content-right {
+	padding-bottom: 200px;
+}
+/**************************main-content end**************************************/
+
+/***************************media*****************************/
+@media screen and (min-width: 750px) {
+	.main-container{
+		min-width: 1200px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.min-container{
+		min-width: 1200px;
+		width: 100%;
+	}
+}
+/*************************************************************/
